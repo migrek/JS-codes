@@ -51,10 +51,11 @@ for (let i=0; i < userWords.length; i+=1) {
 };
  
 if (userWords[0] == ' ') {
-    counMy-=1;}
+    counMy-=1;
+}
     
 if (userWords[userWords.length-1] == ' ') {
     counMy-=1;
 }
 
-alert(parseInt(counMy+1));
+alert(counMy+1);
