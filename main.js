@@ -41,7 +41,7 @@ console.info (arr);
 console.info (arrNew);*/
 
 //task5
-let userWords = prompt('Предложение: ');
+/*let userWords = prompt('Предложение: ');
 let counMy = 0;
 
 for (let i=0; i < userWords.length; i+=1) {
@@ -58,4 +58,65 @@ if (userWords[userWords.length-1] == ' ') {
     counMy-=1;
 }
 
-alert(counMy+1);
+alert(counMy+1);*/
+
+/*str = 'ABC';
+str[0] = 'Z';
+console.log(str);
+
+strMass = ['A', 'B', 'C'];
+strMass[0] = 'Z';
+console.log(strMass);
+
+users = [{name:'Alex', age: 28}, 
+{name:'George', age: 18},
+{name:'Olga', age: 26},
+{name:'Ivan', age: 69},
+{name:'Oleg', age: 55},
+{name:'Vasia', age: 4}];
+
+usersNew = users.slice().sort(function(a, b) {
+    return a.age < b.age;
+});
+
+
+console.log(users);
+console.log(usersNew);*/
+
+
+/*var myArr = [0,2,7,2,5,72,72,5,6,5,0,0,1,5];
+
+var myNewArr = [];
+
+for (var i = 0; i < myArr.length; i++) {
+    if (!myNewArr.includes(myArr[i])) {
+        myNewArr.push(myArr[i])
+    }
+}
+console.log(myArr);
+console.log(myNewArr);*/
+
+var myStr = 'asedgfs';
+var myArrStr = myStr.toUpperCase().split('');
+var myNewArr = [];
+var forbiddenSim = ' ';
+
+/*for (var i = 0; i < myArrStr.length; i++) {
+    if (myArrStr[i] != forbiddenSim) {
+        myNewArr.push(myArrStr[i]);}
+    }
+*/
+var myReversedStr = myNewArr.slice().reverse();
+
+console.log(myStr);
+console.log(myNewArr);
+console.log(myReversedStr);
+
+
+if (myNewArr.join() === myReversedStr.join()) {
+    console.log('Полиндром!!!');
+} else {
+    console.log('НЕ полиндром)(((');}
+
+
+    //replace(/ /g, ',').
